@@ -1,2 +1,27 @@
+[tool.poetry]
+name = "typnuket"
+version = "0.1.0"
+description = ""
+authors = ["Nikc-mk <3kaal6@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+scikit-learn = "^1.2.2"
+catboost = "^1.1.1"
+jupyterlab = "^3.6.3"
+ipywidgets = "^8.0.6"
+pyupgrade = "^3.3.1"
+black = "^23.3.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+pre-commit = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.black]
 line-length = 79
