@@ -17,6 +17,7 @@ black = "^23.3.0"
 isort = "^5.12.0"
 flake8 = "^6.0.0"
 pre-commit = "^3.2.2"
+seaborn = "^0.12.2"
 
 
 [build-system]
@@ -25,3 +26,9 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 79
+
+[tool.flake8]
+max-line-length = 79
+max-complexity = 10
+exclude = [".git", ".idea", "__pycache__", "venv", "data", "models", "src.egg-info", "docs/"]
+ignore = "F401"
