@@ -194,7 +194,7 @@ latex_documents = [
 # If true, show page references after internal links.
 # latex_show_pagerefs = False
 
-# If true, show URL addresses after external links.
+# If true, show URL addresses after outpute links.
 # latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
@@ -210,7 +210,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [("index", "typnuket", "Typnuket Documentation", ["Nikolay"], 1)]
 
-# If true, show URL addresses after external links.
+# If true, show URL addresses after outpute links.
 # man_show_urls = False
 
 

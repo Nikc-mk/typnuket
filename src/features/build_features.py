@@ -85,7 +85,7 @@ def create_features():
 
     data = pd.get_dummies(data, columns=["day"], dtype="int8")
 
-    data.to_csv("../../data/external/public_train_features_5.csv")
+    data.to_csv("../../data/outpute/public_train_features_5.csv")
 
 
 if __name__ == "__main__":
